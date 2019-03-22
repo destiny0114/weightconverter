@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container py-3">
+        <div class="row justify-content-md-center">
+            <div class="col-md-6">
+                <h1 class="text-center text-white display-4 font-weight-lighter mb-3">
+                    Weight Converter
+                </h1>
+                <form>
+                    <div class="form-group shadow">
+                        <input id="textInput" type="number" class="form-control" placeholder="Enter Pounds...">
+                    </div>
+                </form>
+                <div id="output">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>Stone: </h4>
+                            <div class="stoneOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>US ton: </h4>
+                            <div class="ustonOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>Imperial ton: </h4>
+                            <div class="itOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>Microgram: </h4>
+                            <div class="microgramOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>Milligram: </h4>
+                            <div class="milligramOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>Gram: </h4>
+                            <div class="gramOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>Kilogram: </h4>
+                            <div class="kilogramOutput"></div>
+                        </div>
+                    </div>
+
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h4>Tonne: </h4>
+                            <div class="tonneOutput"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
